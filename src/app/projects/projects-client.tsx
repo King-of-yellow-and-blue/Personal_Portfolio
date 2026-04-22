@@ -9,6 +9,7 @@ import { AnimatedSection } from "@/components/shared/animated-section";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { projects } from "@/lib/constants";
+import Image from "next/image";
 
 const filters = [
   { key: "all", label: "All" },
@@ -96,12 +97,17 @@ export function ProjectsPageClient() {
                   }}
                 >
                   <Card glow className="group h-full flex flex-col">
+                    
                     {/* Visual Placeholder */}
                     <div className="mb-4 aspect-video w-full overflow-hidden rounded-xl bg-gradient-to-br from-brand-500/20 via-purple-500/10 to-pink-500/20 relative">
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <span className="text-5xl opacity-40">
-                          {project.category === "ai-ml" ? "🤖" : "💻"}
-                        </span>
+                      <div className="absolute inset-0">
+                        <Image
+                          src={project.image}
+                          alt={project.title}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        />
                       </div>
                       <div className="absolute inset-0 bg-gradient-to-t from-surface-900/80 to-transparent" />
                       <div className="absolute bottom-3 left-3">
@@ -133,6 +139,7 @@ export function ProjectsPageClient() {
                       <a
                         href={project.demoUrl}
                         className="flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-brand-400"
+                        target="_blank"
                       >
                         <ExternalLink className="h-3.5 w-3.5" />
                         Live Demo
@@ -140,6 +147,7 @@ export function ProjectsPageClient() {
                       <a
                         href={project.githubUrl}
                         className="flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-brand-400"
+                        target="_blank"
                       >
                         <GithubIcon className="h-3.5 w-3.5" />
                         Source Code

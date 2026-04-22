@@ -105,9 +105,9 @@ export const projects = [
       "An AI-powered tutor that diagnoses knowledge gaps and generates personalized structured learning paths for students.",
     tags: ["Python", "OpenAI", "Node.js", "React"],
     category: "ai-ml",
-    image: "/images/projects/sentiment.jpg",
-    demoUrl: "#",
-    githubUrl: "#",
+    image: "/images/lumina_1.png",
+    demoUrl: "https://lumina-ivory-psi.vercel.app/",
+    githubUrl: "https://github.com/King-of-yellow-and-blue/LUMINA",
   },
   {
     id: 2,
