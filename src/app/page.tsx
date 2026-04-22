@@ -16,7 +16,7 @@ import { AnimatedSection } from "@/components/shared/animated-section";
 import { SectionHeader } from "@/components/shared/section-header";
 import { services, projects } from "@/lib/constants";
 
-const roles = ["AI/ML Intern", "Full Stack Developer", "Content Creator"];
+const roles = ["I build websites & AI systems for businesses — from scratch."];
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -90,9 +90,9 @@ export default function HomePage() {
               variants={itemVariants}
               className="mx-auto mt-6 max-w-2xl text-lg text-surface-200/70"
             >
-              B.Tech student at SSIT, passionate about building intelligent
-              systems and crafting beautiful web experiences. Combining AI/ML
-              expertise with full-stack development to solve real-world problems.
+              I'm Swastik — a developer and AI builder based in Ahmedabad. 
+              I build custom websites, AI chatbots, and intelligent tools for businesses. 
+              Fast, direct, no agency.
             </motion.p>
 
             {/* CTA */}

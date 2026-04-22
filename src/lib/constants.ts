@@ -17,17 +17,17 @@ export const navLinks = [
 export const socialLinks = [
   {
     label: "GitHub",
-    href: "https://github.com/swastikjoshi",
+    href: "https://github.com/King-of-yellow-and-blue",
     icon: "github" as const,
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/swastikjoshi",
+    href: "https://www.linkedin.com/in/swastik-joshi/",
     icon: "linkedin" as const,
   },
   {
     label: "Twitter",
-    href: "https://twitter.com/swastikjoshi",
+    href: "https://x.com/Swastik_A_Joshi",
     icon: "twitter" as const,
   },
 ];
@@ -56,7 +56,7 @@ export const services = [
     id: "ai-ml",
     title: "AI & Machine Learning",
     description:
-      "Building intelligent systems with cutting-edge ML models. From data analysis and model training to deploying AI-powered solutions that solve real-world problems.",
+      "Building intelligent systems with cutting-edge ML models. From data analysis and model training to deploying AI-powered solutions that solve real-world problems. Starting from ₹15,000 — custom quote based on project scope",
     features: [
       "Machine Learning Model Development",
       "Data Analysis & Visualization",
@@ -70,7 +70,7 @@ export const services = [
     id: "fullstack",
     title: "Full Stack Web Development",
     description:
-      "Crafting modern, responsive web applications from frontend to backend. Using the latest technologies to deliver seamless user experiences.",
+      "Crafting modern, responsive web applications from frontend to backend. Using the latest technologies to deliver seamless user experiences. Starting from ₹8,000 — simple sites to full web apps",
     features: [
       "React & Next.js Applications",
       "RESTful & GraphQL APIs",
@@ -82,14 +82,14 @@ export const services = [
   },
   {
     id: "content",
-    title: "Content & Tech Writing",
+    title: "AI Chatbot & Business Automation",
     description:
-      "Creating compelling technical content that educates and engages. From documentation to tutorials, making complex topics accessible.",
+      "I build custom AI chatbots and automation workflows for businesses — customer support bots, lead generation assistants, internal tools, and process automation. Starting from ₹12,000",
     features: [
-      "Technical Documentation",
-      "Blog Posts & Tutorials",
-      "API Documentation",
-      "Course Content Creation",
+      "Custom AI Chatbot for your website",
+      "WhatsApp / Telegram Bot Integration",
+      "Lead Capture & Auto-Response Systems",
+      "Business Process Automation",
       "SEO-Optimized Writing",
     ],
     icon: "pen-tool" as const,
@@ -99,11 +99,11 @@ export const services = [
 export const projects = [
   {
     id: 1,
-    title: "AI Sentiment Analyzer",
-    slug: "ai-sentiment-analyzer",
+    title: "LUMINA",
+    slug: "ai-tutor system",
     description:
-      "An NLP-powered sentiment analysis tool that processes social media text and provides real-time sentiment scores with interactive visualizations.",
-    tags: ["Python", "TensorFlow", "Flask", "React"],
+      "An AI-powered tutor that diagnoses knowledge gaps and generates personalized structured learning paths for students.",
+    tags: ["Python", "OpenAI", "Node.js", "React"],
     category: "ai-ml",
     image: "/images/projects/sentiment.jpg",
     demoUrl: "#",
@@ -111,12 +111,12 @@ export const projects = [
   },
   {
     id: 2,
-    title: "E-Commerce Platform",
-    slug: "ecommerce-platform",
+    title: "AmbientMind",
+    slug: "Health AI System",
     description:
-      "A full-featured e-commerce application with cart management, payment integration, and an admin dashboard for product management.",
-    tags: ["Next.js", "TypeScript", "MongoDB", "Stripe"],
-    category: "web",
+      "A mental health AI that analyzes behavioral signals to generate early insights on emotional well-being.",
+    tags: ["Python", "TensorFlow", "Flask", "React"],
+    category: "ai-ml",
     image: "/images/projects/ecommerce.jpg",
     demoUrl: "#",
     githubUrl: "#",
@@ -133,6 +133,7 @@ export const projects = [
     demoUrl: "#",
     githubUrl: "#",
   },
+  /*
   {
     id: 4,
     title: "Portfolio Dashboard",
@@ -169,6 +170,7 @@ export const projects = [
     demoUrl: "#",
     githubUrl: "#",
   },
+  */
 ] as const;
 
 export const experiences = [

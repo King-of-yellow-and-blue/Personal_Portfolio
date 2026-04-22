@@ -46,23 +46,19 @@ export function AboutPageClient() {
                   I&apos;m <strong className="text-white">Swastik Joshi</strong>, a curious
                   builder who thrives at the intersection of{" "}
                   <span className="text-brand-400">Artificial Intelligence</span> and{" "}
-                  <span className="text-brand-400">Web Development</span>. Currently
-                  a 2nd semester B.Tech student at{" "}
-                  <strong className="text-white">
-                    Shree Swaminarayan Institute of Technology (SSIT)
-                  </strong>, I&apos;m constantly exploring how technology can solve
-                  real-world problems.
+                  <span className="text-brand-400">Web Development</span> — a developer 
+                  who builds websites and AI systems for businesses, <strong className="text-white">
+                    from scratch, solo, and fast.</strong>
                 </p>
                 <p>
-                  My journey has taken me from writing content at Edugreed to
-                  building machine learning models and crafting full-stack web
-                  applications. I believe in learning by doing, and every project
-                  is an opportunity to push boundaries.
+                  I've built <strong className="text-brand-400">LUMINA</strong>, an AI tutor that maps student knowledge gaps and creates personalized learning paths. 
+                  And <strong className="text-brand-400">AmbientMind</strong>, a mental health AI that reads behavioral signals to surface early emotional insights. 
+                  Both built end-to-end — architecture, backend, AI pipeline, frontend — by me alone.
                 </p>
                 <p>
-                  When I&apos;m not coding, you&apos;ll find me exploring new AI research
-                  papers, contributing to open-source, or brainstorming the next
-                  big idea.
+                  If you're a business owner who needs a website, an AI chatbot, 
+                  or a custom tech solution — I build it, I deliver it,<strong className="text-white"> and I 
+                  stay available throughout</strong>. No agency. No middlemen. Direct.
                 </p>
               </div>
             </AnimatedSection>

@@ -19,8 +19,7 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-4 max-w-xs text-sm text-muted">
-              AI/ML Intern &amp; Full Stack Developer crafting intelligent
-              digital experiences.
+              AI Systems Builder & Full Stack Developer · Available for Projects
             </p>
           </div>
 
@@ -50,7 +49,7 @@ export function Footer() {
             </h3>
             <div className="mt-4 flex gap-3">
               <a
-                href="https://github.com/swastikjoshi"
+                href="https://github.com/King-of-yellow-and-blue"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-lg border border-surface-800 text-muted transition-all hover:border-brand-500/50 hover:text-brand-400"
@@ -59,7 +58,7 @@ export function Footer() {
                 <GithubIcon className="h-4 w-4" />
               </a>
               <a
-                href="https://linkedin.com/in/swastikjoshi"
+                href="https://www.linkedin.com/in/swastik-joshi/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-lg border border-surface-800 text-muted transition-all hover:border-brand-500/50 hover:text-brand-400"
@@ -68,7 +67,7 @@ export function Footer() {
                 <LinkedinIcon className="h-4 w-4" />
               </a>
               <a
-                href="https://twitter.com/swastikjoshi"
+                href="https://x.com/Swastik_A_Joshi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-lg border border-surface-800 text-muted transition-all hover:border-brand-500/50 hover:text-brand-400"

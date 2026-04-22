@@ -13,8 +13,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "swastik@example.com",
-    href: "mailto:swastik@example.com",
+    value: "joshiswastik606@gmail.com",
+    href: "mailto:joshiswastik606@gmail.com",
   },
   {
     icon: MapPin,
@@ -25,9 +25,9 @@ const contactInfo = [
 ];
 
 const socials = [
-  { icon: GithubIcon, href: "https://github.com/swastikjoshi", label: "GitHub" },
-  { icon: LinkedinIcon, href: "https://linkedin.com/in/swastikjoshi", label: "LinkedIn" },
-  { icon: TwitterIcon, href: "https://twitter.com/swastikjoshi", label: "Twitter" },
+  { icon: GithubIcon, href: "https://github.com/King-of-yellow-and-blue", label: "GitHub" },
+  { icon: LinkedinIcon, href: "https://www.linkedin.com/in/swastik-joshi/", label: "LinkedIn" },
+  { icon: TwitterIcon, href: "https://x.com/Swastik_A_Joshi", label: "Twitter" },
 ];
 
 export function ContactPageClient() {
